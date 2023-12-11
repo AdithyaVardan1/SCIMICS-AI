@@ -1,4 +1,4 @@
-# Chatbot Project
+# Chatbot for personalised roadmaps.
 
 This project implements a simple chatbot using a neural network for intent recognition. The chatbot is designed to respond to user input based on predefined intents. The neural network is trained to classify user input into specific intent categories.
 
