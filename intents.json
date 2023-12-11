@@ -1,0 +1,170 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "ml_engineer",
+      "patterns": [
+        "How can I become a Machine Learning Engineer?",
+        "Tell me about a roadmap for Machine Learning Engineering",
+        "What steps do I need to take to become a Machine Learning Engineer?"
+      ],
+      "responses": [
+        "1. Learn Python and programming fundamentals.",
+        "2. Study mathematics and statistics.",
+        "3. Understand machine learning concepts and algorithms.",
+        "4. Gain hands-on experience with machine learning libraries like TensorFlow or PyTorch.",
+        "5. Work on real-world projects and build a strong portfolio.",
+        "6. Stay updated with the latest trends and research in machine learning."
+      ]
+    },
+    {
+      "tag": "full_stack",
+      "patterns": [
+        "How can I become a Full Stack Developer?",
+        "Tell me about a roadmap for Full Stack Development",
+        "What steps do I need to take to become a Full Stack Developer?"
+      ],
+      "responses": [
+        "1. Learn the basics of web development (HTML, CSS, JavaScript).",
+        "2. Dive into frontend development with popular frameworks like React, Angular, or VueJS.",
+        "3. Explore backend development using languages like NodeJS, Python, or Java.",
+        "4. Understand databases and work with both SQL and NoSQL databases.",
+        "5. Learn about version control using Git and GitHub.",
+        "6. Familiarize yourself with deployment and CI/CD tools.",
+        "7. Build projects to showcase your skills, including a personal portfolio, blog, and e-commerce website."
+      ]
+    },
+    {
+      "tag": "cyber_security",
+      "patterns": [
+        "How can I become a Cyber Security Professional?",
+        "Tell me about a roadmap for Cyber Security",
+        "What steps do I need to take to become a Cyber Security Professional?"
+      ],
+      "responses": [
+        "1. Develop a strong foundation in networking and operating systems.",
+        "2. Learn about cybersecurity fundamentals and common threats.",
+        "3. Gain expertise in ethical hacking and penetration testing.",
+        "4. Understand cryptography and secure coding practices.",
+        "5. Get certified in cybersecurity (e.g., CompTIA Security+, CISSP).",
+        "6. Stay updated on the latest cybersecurity trends and threats.",
+        "7. Gain practical experience through internships and hands-on projects."
+      ]
+    },
+    {
+      "tag": "iot_engineer",
+      "patterns": [
+        "How can I become an IoT Engineer?",
+        "Tell me about a roadmap for IoT Engineering",
+        "What steps do I need to take to become an IoT Engineer?"
+      ],
+      "responses": [
+        "1. Acquire knowledge of electronics and embedded systems.",
+        "2. Learn programming languages such as C, C++, or Python for IoT development.",
+        "3. Understand communication protocols used in IoT (e.g., MQTT, CoAP).",
+        "4. Explore hardware platforms like Arduino and Raspberry Pi.",
+        "5. Study cloud computing and IoT platforms (e.g., AWS IoT, Azure IoT).",
+        "6. Gain expertise in sensor technologies and data analytics for IoT.",
+        "7. Build IoT projects to demonstrate your skills, including home automation or industrial IoT applications."
+      ]
+    },
+    {
+      "tag": "data_analyst",
+      "patterns": [
+        "How can I become a Data Analyst?",
+        "Tell me about a roadmap for Data Analysis",
+        "What steps do I need to take to become a Data Analyst?"
+      ],
+      "responses": [
+        "1. Learn data analysis tools such as Python or R.",
+        "2. Master data visualization techniques using tools like Tableau or Matplotlib.",
+        "3. Gain proficiency in SQL for database querying.",
+        "4. Understand statistical concepts and methods.",
+        "5. Work on real-world datasets and projects.",
+        "6. Develop skills in data cleaning and preprocessing.",
+        "7. Stay updated with industry trends and technologies in data analysis."
+      ]
+    },
+    {
+      "tag": "game_developer",
+      "patterns": [
+        "How can I become a Game Developer?",
+        "Tell me about a roadmap for Game Development",
+        "What steps do I need to take to become a Game Developer?"
+      ],
+      "responses": [
+        "1. Learn programming languages such as C++ or UnityScript.",
+        "2. Understand game design principles and concepts.",
+        "3. Explore game development frameworks and engines (e.g., Unity, Unreal Engine).",
+        "4. Gain hands-on experience by working on game projects.",
+        "5. Familiarize yourself with 3D modeling and animation.",
+        "6. Build a strong portfolio showcasing your game development skills.",
+        "7. Stay updated with the latest trends and technologies in the gaming industry."
+      ]
+    },
+    {
+      "tag": "blockchain_engineer",
+      "patterns": [
+        "How can I become a Blockchain Engineer?",
+        "Tell me about a roadmap for Blockchain Engineering",
+        "What steps do I need to take to become a Blockchain Engineer?"
+      ],
+      "responses": [
+        "1. Understand the fundamentals of blockchain technology.",
+        "2. Learn programming languages relevant to blockchain development (e.g., Solidity).",
+        "3. Gain hands-on experience with blockchain platforms (e.g., Ethereum).",
+        "4. Explore smart contract development and decentralized applications (DApps).",
+        "5. Stay informed about blockchain security and best practices.",
+        "6. Participate in blockchain communities and projects.",
+        "7. Build a portfolio showcasing your expertise in blockchain development."
+      ]
+    },
+    {
+      "tag": "app_developer",
+      "patterns": [
+        "How can I become an App Developer?",
+        "Tell me about a roadmap for App Development",
+        "What steps do I need to take to become an App Developer?"
+      ],
+      "responses": [
+        "1. Learn mobile app development languages (e.g., Java, Kotlin for Android, Swift for iOS).",
+        "2. Understand app design principles and user experience (UX).",
+        "3. Explore mobile app development frameworks (e.g., React Native, Flutter).",
+        "4. Gain proficiency in using integrated development environments (IDEs).",
+        "5. Work on real-world app projects to build a strong portfolio.",
+        "6. Test and debug your apps for optimal performance.",
+        "7. Stay updated with the latest trends and technologies in mobile app development."
+      ]
+    }
+  ]
+}
